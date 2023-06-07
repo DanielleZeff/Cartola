@@ -1,0 +1,17 @@
+.form_container_signup{
+    width: 60%;
+   
+}
+
+.btn_color_signup{
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: darkgreen;
+}
+
+.bg_signup {
+   
+    background-color: #f0efef;
+}
