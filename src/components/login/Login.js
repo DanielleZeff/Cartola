@@ -34,11 +34,11 @@ function Login() {
               Lembrar-me
             </label>
           </div>
-          <div style={{marginLeft: "22%"}}>
-            <button style={{color: "white"}} className="btn_color">Entrar</button>
+          <div style={{marginLeft: "24%", width: "66%"}}>
+            <button className="btn_color">Sign in</button>
           </div>
           <p style={{marginLeft: "30%", marginTop:"1rem"}} className="text-right">
-            <Link to="signup">Não tenho cadastro</Link>
+            <Link to="/signup">Não tenho cadastro</Link>
            
           </p>
         </form>

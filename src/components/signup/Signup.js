@@ -28,11 +28,11 @@ function Signup() {
   };
 
   return (
-    <div className="bg_signup signup template d-flex justify-content-center align-items-center vh-200 ">
+    <div className="bg_signup signup template d-flex justify-content-center align-items-center vh-100 ">
       <div className="form_container_signup p-5 rounded bg-white">
         <form onSubmit={handleSubmit(onSubmit)}>
           <h3 className="text-center">Sign up</h3>
-          <div className="mb-2">
+         {/*  <div className="mb-2">
             <label htmlFor="uname">Nome de Usuário</label>
             <input
               style={{ width: "50%" }}
@@ -40,17 +40,18 @@ function Signup() {
               placeholder="Digite seu nome de usuário"
               className="form-control"
             />
-          </div>
-          <div>
-            <label htmlFor="email">Nome</label>
+          </div> */}
+          <div style={{marginLeft: "25%"}}>
+          <div className="mb-2">
+            <label htmlFor="name">Nome</label>
             <input
-              style={{ width: "50%" }}
+              style={{ width: "65%" }}
               type="name"
-              placeholder="Digite seu primeiro nome"
+              placeholder="Digite seu nome"
               className="form-control"
             />
           </div>
-          <div className="mb-2 col-md-7">
+        {/*   <div className="mb-2 col-md-7">
             <label htmlFor="email">Sobrenome</label>
             <input
               style={{ width: "50%" }}
@@ -67,12 +68,13 @@ function Signup() {
               placeholder="Digite seu telefone"
               className="form-control"
             />
-          </div>
+          </div> */}
           <div className="mb-2">
             <label htmlFor="email">Email</label>
             <input
               type="email"
-              placeholder="Digite seu Email"
+              style={{ width: "65%" }}
+              placeholder="email@gmail.com"
               className="form-control"
             />
           </div>
@@ -80,11 +82,12 @@ function Signup() {
             <label htmlFor="password">Senha</label>
             <input
               type="password"
+              style={{ width: "65%" }}
               placeholder="Digite sua Senha"
               className="form-control"
             />
           </div>
-          <div className="mb-2">
+         {/*  <div className="mb-2">
             <label htmlFor="scholl">Escola</label>
             <input
               style={{ width: "50%" }}
@@ -162,7 +165,7 @@ function Signup() {
               placeholder="Digite seu estado"
               className="form-control"
             />
-          </div>
+          </div> */}
          {/*  <div className="mb-2">
             <label htmlFor="pais">País</label>
             <input
@@ -173,14 +176,13 @@ function Signup() {
               className="form-control"
             />
           </div> */}
-
-          <div style={{ marginLeft: "35%", marginTop: "1rem" }}>
+  </div>
+          <div style={{ marginLeft: "35%", marginTop: "2rem", width:"35%" }}>
             <button
               type="submit"
-              style={{ color: "white" }}
-              className="btn_color_signup"
+              className="btn_color"
             >
-              Cadastrar
+              Sign up
             </button>
           </div>
         </form>

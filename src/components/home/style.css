@@ -1,0 +1,17 @@
+.signup_navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+ 
+}
+
+.signup_navbar_button {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  
+}
+
+
